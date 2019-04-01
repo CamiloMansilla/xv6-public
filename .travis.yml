@@ -5,8 +5,8 @@ deploy:
   api_key:
     secure: MRkD6WChrqq+3ZShI+VN/ua/6S43MJOfzmcb6I+qK/dsgEIYKoFjmW/TD52H8vhQX9IFW1lSMl1w2+3NjmZi4SfXlXHZjhkNX7uiXbRg1GniIW1erhCq7u906h11ONBkRmd0Np8zwuGWnh8ipWx1EYN5Jp+izqHSXP8MheEwbXz6C7Rp7ysE7WEeZvZPruZu3IoZ2mmsgrqZNETMLxqDh1F5/t7GHK09oA1VPSwTPyfSsZCQV/757KXW79ruYyktg9iu12WH2ixRjwS6k+t/rOpeqgioxadnYkgoZl+0oLEZQDrT6NgRJMb6Co8HqCbk6FsF7lS2E9vFuZtB3c2B5yElV+IqcU7Fo5clbstfmtBZ7SX0A1uk6kOX5sPw0sfIwdE2OaBDNJDgANqvOxCeEANcUvD9XLxhkCP4oRU6EnODB42fLVhoJ59O4wpxwlHDgoO5z4U+PjupQAR2DYObbOwz/8vgqOytO+HU29gZtlGmxHDbbYypqcp8Jva28ZLjjk1/iV6DZgZlc8YBvHc1Qi8MAI87U5IbkMyqtA0gr+QIdvtptBz53EVagnAHRTQkw0pGX6uMEYU/WKQKQ7SSY1D5ei2xaLijed88ODTC4a3gvgst+PlzGU2QOtb70tOB8FVq1iGczwkoYoSH93I77EiDtITHPdMilCL3fymw04o=
   file:
-	- fs.img
-	- xv6.img
+  - fs.img
+  - xv6.img
   skip_cleanup: true
   on:
     repo: CamiloMansilla/xv6-public
